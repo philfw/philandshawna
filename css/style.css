@@ -59,13 +59,15 @@ header {
 
 .header-image {
 	position:fixed;
-	width:17%;
+	width:26%;
 	top:0;
-	left:41.5%;
+	left:37%;
 	margin-right:0;
 	min-height:150px;
 	background-image:url('../images/topimg.png');
 	background-size:cover;
+	padding-bottom:10px;
+	margin-bottom:-10px;
 }
 
 nav {
