@@ -47,6 +47,32 @@ a.next {
 	font-family:'athiti', sans-serif;
 }
 
+.page {
+	text-align:center;
+	font-family:helvetica, sans-serif;
+}
+
+.page h2 {
+	margin-bottom:20px;
+}
+
+.strong {
+	font-weight:bold;
+}
+
+.hotel-block {
+	width:100%;
+	text-align:center;
+	display:block;
+}
+
+.hotel-block div {
+	display:inline-block;
+	width:640px;
+	padding:.25em;
+	margin:.25em;
+}
+
 /*HEADER*/
 
 header {
@@ -143,7 +169,7 @@ h1 {
 
 h2 {
 	font-size:32px;
-	font-family:'dancing script', cursive;
+	font-family:'princess sofia', cursive;
 }
 
 .title p {
