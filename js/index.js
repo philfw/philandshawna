@@ -3,7 +3,17 @@
 
 $(document).ready(function(){
 	$('.title').fadeIn(500);
-	$('.title').css('display','table-cell')
+	$('.title').css('display','table-cell');
+	$('a').attr('target','_blank');
+});
+
+$(window).scroll(function(){
+	if ($(window).scrollTop() > 150) {
+		$('.home').slideDown(100);
+	}
+	if ($(window).scrollTop() < 149) {
+		$('.home').slideUp(100);
+	}
 });
 
 // AUTO SCROLLING
