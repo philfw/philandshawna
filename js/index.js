@@ -4,7 +4,6 @@
 $(document).ready(function(){
 	$('.title').fadeIn(500);
 	$('.title').css('display','table-cell');
-	$('a').attr('target','_blank');
 });
 
 $(window).scroll(function(){
